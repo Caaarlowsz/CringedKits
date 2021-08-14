@@ -167,7 +167,6 @@ public class ScoreBoard implements Listener {
 			}
 	public static Main plugin;
 	
-	@SuppressWarnings({ "deprecation" })
 	public static void UpdateScore(Player p) {
 		int online = Bukkit.getOnlinePlayers().length;
 		int kills = KillsDeathsMoney.getKills(p);

@@ -107,7 +107,6 @@ public class Fake implements Listener, CommandExecutor {
 		}
 	}
 
-	@SuppressWarnings("deprecation")
 	public static void mudarNome(Player p, String nome) {
 		EntityPlayer ep = ((CraftPlayer) p).getHandle();
 		PacketPlayOutNamedEntitySpawn packet = new PacketPlayOutNamedEntitySpawn(ep);
